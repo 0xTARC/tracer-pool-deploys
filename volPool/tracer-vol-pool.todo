@@ -1,0 +1,11 @@
+- [ ] Try getting data from the CIV oracle & make sure it works kek (this one)
+  - [ ] https://docs.chain.link/docs/arbitrum-price-feeds/
+
+- [ ] Deploy an `IOracleWrapper` implementation which gives the price of ETH in the settlement token.
+  - [ ] Deploy pool: https://tracer.finance/radar/deploy-your-own-pool/
+  - [ ] WTF is it? See at this address: 0x14F7E8E31B794AA9674f2f861Ef45D9081Ab827E
+  - [ ] Ah ok. Here: https://github.com/tracer-protocol/perpetual-pools-contracts/blob/631f0e0effcffe47f29c4d61d519eb5c52e73fa1/contracts/interfaces/IOracleWrapper.sol
+  - [ ] The 8 hour sma oracle is one. https://github.com/tracer-protocol/perpetual-pools-contracts/blob/631f0e0effcffe47f29c4d61d519eb5c52e73fa1/contracts/implementation/SMAOracle.sol
+  - [ ] There is a raw chainlink wrapper too: https://github.com/tracer-protocol/perpetual-pools-contracts/blob/631f0e0effcffe47f29c4d61d519eb5c52e73fa1/contracts/implementation/ChainlinkOracleWrapper.sol
+
+- [ ] Deploy an `IOracleWrapper` implementation which gives the price of ETH in the settlement token.
